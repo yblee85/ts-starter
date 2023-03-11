@@ -1,5 +1,7 @@
+export const sayHi = () => 'Hi';
+
 function main() {
-  console.log('Go');
+  console.log(sayHi());
 }
 
 main();

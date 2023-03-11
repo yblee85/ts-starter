@@ -1,5 +1,7 @@
-describe('default', () => {
+import { sayHi } from 'src/main';
+
+describe('sayHi', () => {
   it('default', () => {
-    expect(true).toBe(true);
+    expect(sayHi()).toBe('Hi');
   });
 });
